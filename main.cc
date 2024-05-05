@@ -9,9 +9,9 @@ int main() {
     char* array = new char[arr_size];
 
     long unsigned int index = 0;
-
+    char char_for_read = 0;
     while (index < arr_size) {
-        array[index] = 0;
+        char_for_read = array[index];
 
         index += step;
 
